@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/*CSS para la página*/
+
+body{
+  animation: aparecer 1s ease-in-out forwards;
+}
+
+@keyframes aparecer {
+  from{
+    opacity: 0;
+    transform: translateY(0.3px);
+  }to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.card img{  /*Cartas del inicio.*/
+  height: 217px;
+}
+
+/*Imagen principal de cada sección*/
+
+.hero {
+  background: url("https://4kwallpapers.com/images/walls/thumbs_2t/12089.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.herotiburon {
+  background: url("https://www.peces.com.mx/wp-content/uploads/2023/04/tiburones-incomprendidos.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.herocetaceo {
+  background: url("https://aida-americas.org/sites/default/files/styles/max_width_1600px/public/blog_images/ballena_bebe_blog.jpg.webp?itok=kFKUhb6K");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.heroabisal {
+  background: url("https://misanimales.com/wp-content/uploads/2021/04/pez-abisal-bioluminiscente.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.herocorales {
+  background: url("https://www.coralesymarinos.com/storage/2020/03/34_Portada_colores-en-corales-1024x681.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+#arrecifes {
+  list-style-type: disc;
+}
+
+.enlaces_footer:hover {
+  text-decoration: underline;
+}

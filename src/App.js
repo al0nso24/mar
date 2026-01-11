@@ -1,24 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
+import Inicio from './Inicio';
+import Menu from './Menu';
+import Footer from './Footer';
+import Tiburones from './Tiburones';
+import Cetaceos from './Cetaceos';
+import Abisal from './Abisal';
+import Corales from './Corales';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Menu></Menu>
+      <Routes>
+        <Route path='/' element={<Inicio></Inicio>}></Route>
+        <Route path="/inicio" element={<Inicio></Inicio>}></Route>
+        <Route path='/tiburones' element={<Tiburones></Tiburones>}></Route>
+        <Route path='/cetaceos' element={<Cetaceos></Cetaceos>}></Route>
+        <Route path='/abisal' element={<Abisal></Abisal>}></Route>
+        <Route path='/corales' element={<Corales></Corales>}></Route>
+      </Routes>
+      <Footer></Footer>
+    </BrowserRouter>
   );
 }
 
