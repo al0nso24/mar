@@ -14,7 +14,7 @@ export default function Inicio(){
                     <div className="col s12 m6 l6 xl6">
                         <div className="card">
                             <div class="card-image">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPteSSwPFFffNqdmvgvz2YtqOio2uGSEa-gg&s"></img>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPteSSwPFFffNqdmvgvz2YtqOio2uGSEa-gg&s" alt="tiburones"></img>
                                 <span class="card-title">Tiburones</span>
                             </div>
                             <div class="card-content">
@@ -30,7 +30,7 @@ export default function Inicio(){
                     <div className="col s12 m6 l6 xl6">
                         <div className="card">
                             <div class="card-image">
-                                <img src="https://www.ballenaswiki.com/Imagenes/evolucion-de-los-cetaceos.jpg"></img>
+                                <img src="https://www.ballenaswiki.com/Imagenes/evolucion-de-los-cetaceos.jpg" alt="cetaceos"></img>
                                 <span class="card-title">Cetáceos</span>
                             </div>
                             <div class="card-content">
@@ -46,7 +46,7 @@ export default function Inicio(){
                     <div className="col s12 m6 l6 xl6">
                         <div className="card">
                             <div class="card-image">
-                                <img src="https://neofronteras.com/wp-content/photos/Chauliodus.jpg"></img>
+                                <img src="https://neofronteras.com/wp-content/photos/Chauliodus.jpg" alt="abisales"></img>
                                 <span class="card-title">Abisales</span>
                             </div>
                             <div class="card-content">
@@ -62,7 +62,7 @@ export default function Inicio(){
                     <div className="col s12 m6 l6 xl6">
                         <div className="card">
                             <div class="card-image">
-                                <img src="https://tse4.mm.bing.net/th/id/OIP.EpoxK_pTeV15scnSCmtEpgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"></img>
+                                <img src="https://tse4.mm.bing.net/th/id/OIP.EpoxK_pTeV15scnSCmtEpgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="corales"></img>
                                 <span class="card-title">Corales</span>
                             </div>
                             <div class="card-content">
