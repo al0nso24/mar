@@ -30,7 +30,7 @@ export default function Inicio(){
                     <div className="col s12 m6 l6 xl6">
                         <div className="card">
                             <div class="card-image">
-                                <img src="https://www.ballenaswiki.com/Imagenes/evolucion-de-los-cetaceos.jpg" alt="cetaceos"></img>
+                                <img src="https://res.cloudinary.com/rainforest-cruises/image/upload/c_scale,w_400,h_225,dpr_2/c_fill,g_auto/f_auto,q_auto/v1689253483/Antarctica-Guides-Whale-Mom-Baby.jpg?_i=AA" alt="cetaceos"></img>
                                 <span class="card-title">Cetáceos</span>
                             </div>
                             <div class="card-content">
