@@ -26,7 +26,7 @@ function Cetaceos(){
                     </p>
                 </div>
                 <div className="col s12 m6 l6 xl6">
-                    <img src="https://ccc-chile.org/wp-content/uploads/2024/09/CoverArticuloStatuQuorum-e1727009125333.png" className="responsive-img" alt="ballena"></img>
+                    <img src="https://res.cloudinary.com/rainforest-cruises/image/upload/c_scale,w_400,h_225,dpr_2/c_fill,g_auto/f_auto,q_auto/v1689253483/Antarctica-Guides-Whale-Mom-Baby.jpg?_i=AA" className="responsive-img" alt="ballena"></img>
                 </div>
             </div>
             <div className="row section">
